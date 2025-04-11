@@ -11,8 +11,8 @@
  * Copyright (C) 2024 Fossil Logic. All rights reserved.
  * -----------------------------------------------------------------------------
  */
-#include "fossil/code/app.h"
-#include "fossil/code/lifecycle.h"
+#include "fossil/code/app.hpp"
+#include "fossil/code/lifecycle.hpp"
 
 
 // Fossil App example implementation (Custom application)
