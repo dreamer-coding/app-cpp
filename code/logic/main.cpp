@@ -11,7 +11,7 @@
  * Copyright (C) 2024 Fossil Logic. All rights reserved.
  * -----------------------------------------------------------------------------
  */
-#include "fossil/code/app.h"
+#include "fossil/code/app.hpp"
 
 /**
  * Main entry point for the application.
