@@ -13,7 +13,7 @@
  */
 #include <fossil/test/framework.h>
 
-#include "fossil/code/app.h"
+#include "fossil/code/app.hpp"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * *
