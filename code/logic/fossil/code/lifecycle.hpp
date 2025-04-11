@@ -11,8 +11,8 @@
  * Copyright (C) 2024 Fossil Logic. All rights reserved.
  * -----------------------------------------------------------------------------
  */
-#ifndef FOSSIL_APP_LIFECYCLE_H
-#define FOSSIL_APP_LIFECYCLE_H
+#ifndef FOSSIL_APP_LIFECYCLE_HPP
+#define FOSSIL_APP_LIFECYCLE_HPP
 
 #include <fossil/sys/framework.h>
 #include <fossil/io/framework.h>
@@ -162,4 +162,4 @@ void fossil_app_run(fossil_app_engine_t* app);
 }
 #endif
 
-#endif /* FOSSIL_APP_LIFECYCLE_H */
+#endif /* FOSSIL_APP_LIFECYCLE_HPP */
