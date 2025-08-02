@@ -61,7 +61,7 @@ int main(int argc, char **argv) {
 """
 
         # Write the generated test runner to 'unit_runner.c'
-        with open("unit_runner.c", "w") as file:
+        with open("unit_runner.cpp", "w") as file:
             file.write(header)
             file.write(extern_test_groups)
             file.write(runner)
