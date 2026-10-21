@@ -24,15 +24,15 @@
 // * * * * * * * * * * * * * * * * * * * * * * * *
 
 // Define the test suite and add test cases
-FOSSIL_SUITE(c_sample_suite);
+FOSSIL_SUITE(cpp_sample_suite);
 
 // Setup function for the test suite
-FOSSIL_SETUP(c_sample_suite) {
+FOSSIL_SETUP(cpp_sample_suite) {
     // Setup code here
 }
 
 // Teardown function for the test suite
-FOSSIL_TEARDOWN(c_sample_suite) {
+FOSSIL_TEARDOWN(cpp_sample_suite) {
     // Teardown code here
 }
 
@@ -44,7 +44,7 @@ FOSSIL_TEARDOWN(c_sample_suite) {
 // as samples for library usage.
 // * * * * * * * * * * * * * * * * * * * * * * * *
 
-FOSSIL_TEST(c_test_app_name) {
+FOSSIL_TEST(cpp_test_app_name) {
     const char *app_name = FOSSIL_APP_NAME;
     ASSUME_ITS_EQUAL_CSTR("Sample App", app_name);
 }
@@ -58,9 +58,9 @@ FOSSIL_TEST(c_test_app_version) {
 // * Fossil Logic Test Pool
 // * * * * * * * * * * * * * * * * * * * * * * * *
 
-FOSSIL_TEST_GROUP(c_sample_tests) {
-    FOSSIL_ADD_TEST(c_sample_suite, c_test_app_name);
-    FOSSIL_ADD_TEST(c_sample_suite, c_test_app_version);
+FOSSIL_TEST_GROUP(cpp_sample_tests) {
+    FOSSIL_ADD_TEST(cpp_sample_suite, cpp_test_app_name);
+    FOSSIL_ADD_TEST(cpp_sample_suite, cpp_test_app_version);
 
-    FOSSIL_ADD_SUITE(c_sample_suite);
+    FOSSIL_ADD_SUITE(cpp_sample_suite);
 }
