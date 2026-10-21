@@ -19,7 +19,7 @@ Ensure you have the following installed before starting:
 
     ```sh
     git clone https://github.com/fossillogic/app-cpp.git
-    cd app-c
+    cd app-cpp
     ```
 
 2. **Configure the Build**:
