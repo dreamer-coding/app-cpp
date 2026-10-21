@@ -18,7 +18,7 @@ Ensure you have the following installed before starting:
 1. **Clone the Repository**:
 
     ```sh
-    git clone https://github.com/fossillogic/app-c.git
+    git clone https://github.com/fossillogic/app-cpp.git
     cd app-c
     ```
 
@@ -48,11 +48,11 @@ Ensure you have the following installed before starting:
 
 ## **Contributing**
 
-Interested in contributing? Please open pull requests or create issues on the [GitHub repository](https://github.com/fossillogic/app-c).
+Interested in contributing? Please open pull requests or create issues on the [GitHub repository](https://github.com/fossillogic/app-cpp).
 
 ## **Feedback and Support**
 
-For issues, questions, or feedback, open an issue on the [GitHub repository](https://github.com/fossillogic/app-c/issues).
+For issues, questions, or feedback, open an issue on the [GitHub repository](https://github.com/fossillogic/app-cpp/issues).
 
 ## **License**
 
