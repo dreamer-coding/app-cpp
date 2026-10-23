@@ -22,8 +22,8 @@
  * Copyright (C) 2014-2025 Fossil Logic. All rights reserved.
  * -----------------------------------------------------------------------------
  */
-#ifndef FOSSIL_APP_COMMON_H
-#define FOSSIL_APP_COMMON_H
+#ifndef FOSSIL_APP_COMMON_HPP
+#define FOSSIL_APP_COMMON_HPP
 
 #include <fossil/sys/framework.h>
 #include <fossil/io/framework.h>

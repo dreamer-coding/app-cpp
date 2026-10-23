@@ -73,7 +73,7 @@ bool app_entry(int argc, char** argv) {
             fossil_io_printf("\033[H\033[J"); // ANSI escape sequence to clear screen
         } else {
             // Try to suggest a valid command
-            fossil_ti_reason_t reason = {0};
+            fossil_ti_reason_t reason{};
             const char *suggested = fossil_it_magic_suggest_command(
                 argv[i], valid_commands, num_commands, &reason
             );

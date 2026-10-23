@@ -11,8 +11,8 @@
  * Copyright (C) 2024 Fossil Logic. All rights reserved.
  * -----------------------------------------------------------------------------
  */
-#ifndef FOSSIL_APP_CODE_H
-#define FOSSIL_APP_CODE_H
+#ifndef FOSSIL_APP_CODE_HPP
+#define FOSSIL_APP_CODE_HPP
 
 #include "common.h"
 

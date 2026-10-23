@@ -22,8 +22,8 @@
  * Copyright (C) 2014-2025 Fossil Logic. All rights reserved.
  * -----------------------------------------------------------------------------
  */
-#ifndef FOSSIL_APP_MAGIC_H
-#define FOSSIL_APP_MAGIC_H
+#ifndef FOSSIL_APP_MAGIC_HPP
+#define FOSSIL_APP_MAGIC_HPP
 
 #include "common.h"
 
