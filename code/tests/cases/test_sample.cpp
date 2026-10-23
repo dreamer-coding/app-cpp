@@ -49,7 +49,7 @@ FOSSIL_TEST(cpp_test_app_name) {
     ASSUME_ITS_EQUAL_CSTR("Sample App", app_name);
 }
 
-FOSSIL_TEST(c_test_app_version) {
+FOSSIL_TEST(cpp_test_app_version) {
     const char *app_version = FOSSIL_APP_VERSION;
     ASSUME_ITS_EQUAL_CSTR("0.1.0", app_version);
 }
